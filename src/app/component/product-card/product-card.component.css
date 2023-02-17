@@ -1,0 +1,28 @@
+.card {
+    width: 18rem;
+    height: 300;
+    background: peachpuff;
+}
+
+.rating {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 78px;
+    margin: 10px;
+    
+}
+.rating li i {
+
+    margin-right: 6px;
+}
+.checked {
+    color: rgb(213, 213, 40);
+}
+.add-cart-button {
+ 
+    margin: 12px 0px -16px 0px;
+}
+.wishlist-icon{
+    top: -9px;
+   left: 228px;
+}
