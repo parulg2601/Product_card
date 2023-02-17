@@ -1,19 +1,31 @@
 <div class="card m-5">
-    <img src="assets/Mobile Phone.jpg" class="card-img-top" alt="Not available">
-    <div class="card-body">
-      <div class="card-img-overlay wishlist-icon">
-        <img src="assets/wishlist.png" style="height: 35px;" alt="No icon">
-      </div>
-        
-      <h5 class="card-title text-center">{{ title }}</h5>
-      <p class="card-text">{{ description }}</p>
-      <h6 class="text-center">{{ price }}</h6>
-      <h6 class="text-center">{{ ratings }}</h6>
-      
-      <div class="add-cart-button text-center">
-        <button href="#" class="btn btn-primary rounded-pill">Add to Cart</button>
-       
-      </div>
-      
+  <img src="assets/Mobile Phone.jpg" class="card-img-top image text-center" alt="Not available">
+  <div class="card-body">
+    <div class="card-img-overlay wishlist-icon">
+      <img src="assets/wishlist.png" style="height: 32px;" alt="No icon">
     </div>
+
+    <div class="d-flex">
+      <h5 class="card-title">{{ title }}</h5>
+      <h5 class="mt-0 price">{{ price }}</h5>
+    </div>
+    <p>{{description}}</p>
+
+    <div class="d-flex">
+      <ul class="d-flex text-decoration-none list-unstyled rating">
+        <li><i class="fa fa-star checked"></i></li>
+        <li><i class="fa fa-star checked"></i></li>
+        <li><i class="fa fa-star checked"></i></li>
+        <li><i class="fa fa-star checked"></i></li>
+        <li><i class="fa fa-star"></i></li>
+      </ul>
+
+      <h6 class="mt-1">{{ratings}}</h6>
+    </div>
+    <div class="add-cart-button">
+      <button href="#" class="btn btn-primary">Add to Cart</button>
+
+    </div>
+
   </div>
+</div>

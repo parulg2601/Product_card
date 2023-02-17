@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class ProductCardComponent {
 
   title = "Mobile Phone";
-  description = "The Samsung Galaxy S20 FE comes with a triple lens camera, capacious 6.5-inch screen and a large battery.";
+  description = "The Samsung Galaxy S20 comes with a triple lens camera.";
   price = "$300";
-  ratings = "4/5";
+  ratings = "(4)";
   
 }
